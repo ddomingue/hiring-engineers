@@ -10,7 +10,7 @@ See
 ### Install a database and its integration
 
 See
-* [docker-compose yaml](./docker-compose yaml) file for database instance
+* [docker-compose yaml](docker-compose.yaml) file for database instance
 * [src/conf.d/postgres.d/conf.yaml](src/conf.d/postgres.d/conf.yaml) for integration configuration
 * [snapshots/Q1_database_metrics.png](snapshots/Q1_database_metrics.png)
 
