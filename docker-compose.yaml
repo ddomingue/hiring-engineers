@@ -1,0 +1,22 @@
+version: '3.4'
+services:
+  datadog:
+    image: 'datadog/agent:latest'
+    volumes:
+      - '/var/run/docker.sock:/var/run/docker.sock:ro'
+      - '/proc:/host/proc:ro'
+      - '/sys/fs/cgroup/:/host/sys/fs/cgroup:ro'
+      - '/home/daniel/Documents/dump/hiring-engineers/src/conf.d/:/conf.d:ro'
+      - '/home/daniel/Documents/dump/hiring-engineers/src/checks.d/:/checks.d:ro'
+    environment:
+      - DD_API_KEY=a8d3784c25336b49ce19e054451b8723
+      - DD_TAGS="hostname:mytestdatadog.localdomain user:daniel"
+
+  postgres:
+    image: 'postgres'
+    volumes:
+      - '/home/daniel/Documents/dump/postgres/db-data:/var/lib/postgresql/data'
+    environment:
+      - POSTGRES_PASSWORD=docker
+    ports:
+      - 5432:5432
