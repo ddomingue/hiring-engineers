@@ -34,7 +34,7 @@ Yes, via the edit metadata API endpoint : "PUT https://api.datadoghq.com/api/v1/
 ### Create timeboard with metrics
 
 See 
-* [src/scripts/create_vizualization.sh](src/scripts/create_vizualization.sh)
+* [src/scripts/create_vizualisation.sh](src/scripts/create_vizualisation.sh)
 
 ### Timeboard snapshots
 
