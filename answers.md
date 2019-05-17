@@ -54,7 +54,7 @@ See
 ### Bonus question
 
 See
-* "snapshots/Q3_downtime.png"
+* [snapshots/Q3_downtime.png](snapshots/Q3_downtime.png)
 
 ## Collecting APM Data
 
