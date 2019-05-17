@@ -5,7 +5,7 @@ Your answers to the questions go here.
 ### Tags and screenshot
 
 See
-* "snapshots/Q1_hosts_map.png"
+* [snapshots/Q1_hosts_map.png](snapshots/Q1_hosts_map.png)
 
 ### Install a database and its integration
 
@@ -17,12 +17,12 @@ See
 ### Custom agent that submits random metric
 
 See
-* "src/check.d/custom_my_metric.py"
+* [src/check.d/custom_my_metric.py](src/check.d/custom_my_metric.py)
 
 ### Change custom interval
 
 See 
-* "src/conf.d/custom_my_metric.yaml"
+* [src/conf.d/custom_my_metric.yaml](src/conf.d/custom_my_metric.yaml)
 
 ### Bonus question
 
@@ -34,13 +34,13 @@ Yes, via the edit metadata API endpoint : "PUT https://api.datadoghq.com/api/v1/
 ### Create timeboard with metrics
 
 See 
-* "src/scripts/create_vizualization.sh"
+* [src/scripts/create_vizualization.sh](src/scripts/create_vizualization.sh)
 
 ### Timeboard snapshots
 
 See
-* "snapshots/Q2_time_board.png"
-* "snapshots/Q2_snapshot.png"
+* [snapshots/Q2_time_board.png](snapshots/Q2_time_board.png)
+* [snapshots/Q2_snapshot.png](snapshots/Q2_snapshot.png)
 
 ### Bonus question
 
@@ -49,7 +49,7 @@ Anomaly graph highlights outliers from usual metric behaviours
 ## Monitoring data
 
 See
-* "snapshots/Q3_monitoring.png"
+* [snapshots/Q3_monitoring.png](snapshots/Q3_monitoring.png)
 
 ### Bonus question
 
