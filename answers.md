@@ -58,7 +58,13 @@ See
 
 ## Collecting APM Data
 
-** todo **
+See
+* [snapshots/Q4_traces.png](snapshots/Q4_traces.png)
+
+### Bonus question
+
+A service is a set of processes that do the same job.
+A resource is a particular action for a service.
 
 ## Final Question
 
