@@ -17,7 +17,7 @@ See
 ### Custom agent that submits random metric
 
 See
-* [src/check.d/custom_my_metric.py](src/check.d/custom_my_metric.py)
+* [src/checks.d/custom_my_metric.py](src/checks.d/custom_my_metric.py)
 
 ### Change custom interval
 
