@@ -71,3 +71,5 @@ A resource is a particular action for a service.
 * Monitoring machine learning bias and variance during learning phases on a model
 * Monitoring smart building sensors using multiple agent collectors aggregating sensor data on site
 * Monitoring baby room and sending alerts when he's woken up
+* Using datadog as a logistics monitoring system and supervising correct deliveries to clients 
+* Using datadog to display the current status of orders at a pizza restaurant
