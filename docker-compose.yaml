@@ -9,8 +9,12 @@ services:
       - '/home/daniel/Documents/dump/hiring-engineers/src/conf.d/:/conf.d:ro'
       - '/home/daniel/Documents/dump/hiring-engineers/src/checks.d/:/checks.d:ro'
     environment:
-      - DD_API_KEY=a8d3784c25336b49ce19e054451b8723
+      - DD_API_KEY=pouette
       - DD_TAGS="hostname:mytestdatadog.localdomain user:daniel"
+      - DD_APM_ENABLED=true
+      - DD_APM_NON_LOCAL_TRAFFIC=true
+    ports:
+      - 8126:8126/tcp
 
   postgres:
     image: 'postgres'
